@@ -1,0 +1,346 @@
+html,body{
+	height: 100%;
+}
+html{
+	overflow: hidden;
+}
+body{
+	overflow: auto;
+}
+.head{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 1.111111111111111rem;
+	background-color: #fff;
+}
+.head .head-top{
+	height: 0.6944444444444444rem;
+	margin-top: 0.1944444444444444rem;
+}
+.head-top .head-left{
+	float: left;
+	width: 2.222222222222222rem;
+	height: 0.6944444444444444rem;
+	background: url(../img/head-add.png) no-repeat 0.3333333333333333rem 0.1666666666666667rem;
+	background-size: 0.4351851851851852rem 0.3611111111111111rem;
+}
+.head-top .head-center{
+	float: left;
+	width: 2.361111111111111rem;
+	height: 0.6944444444444444rem;
+	margin-left: 1.62037037037037rem;
+	margin-right: 2.685185185185185rem;
+	background: url(../img/logo.png) no-repeat;
+	background-size: 2.361111111111111rem 0.6944444444444444rem;
+}
+.head-top .head-right{
+	float: right;
+	width: 1.111111111111111rem;
+	height: 0.6944444444444444rem;
+	background: url(../img/head-sousuo.png) no-repeat 0.3240740740740741rem 0.1296296296296296rem;
+	background-size: 0.462962962962963rem 0.4814814814814815rem;
+}
+.content-type{
+	position: absolute;
+	left: 0;
+	top: 1.111111111111111rem;
+	width: 100%;
+	height: 0.9722222222222222rem;
+	background-color: #fff;
+}
+.content-type a{
+	float: left;
+	width: 2rem;
+	height: 0.9722222222222222rem;
+	font-size: 0.3796296296296296rem;
+	color: #636163;
+	line-height: 1.111111111111111rem;
+	text-align: center;
+}
+.content-type .type-shouye{
+	color: #fff;
+	background-color: #ff8618;
+}
+.content .content-pic{
+	float: left;
+	width: 100%;
+	height: 5.638888888888889rem;
+}
+.centent-2018 img{
+	width: 100%;
+	height: 5.638888888888889rem;
+}
+.content .content-zonghe{
+	box-sizing: border-box;
+	float: left;
+	width: 100%;
+	background-color: #eff3ef;
+	padding-left: 0.2222222222222222rem;
+	padding-right: 0.2222222222222222rem;
+	padding-bottom: 3.555555555555556rem;
+}
+.content-zonghe .zonghe-wenzhang{
+	width: 100%;
+	height: 6.138888888888889rem;
+	background-color: #eff3ef;
+}
+.zonghe-wenzhang .wenzhang-top{
+	height: 0.9444444444444444rem;
+	line-height: 0.9444444444444444rem;
+}
+.wenzhang-top .wenzhang{
+	float: left;
+	font-size: 45px;
+	color: #ff8621;
+}
+.wenzhang-top .wenzhang-you{
+	float: right;
+	width: 0.8611111111111111rem;
+	height: 0.9444444444444444rem;
+	background: url(../img/jiantou.png) no-repeat 0.6296296296296296rem 0.3240740740740741rem;
+	background-size: 0.212962962962963rem 0.3703703703703704rem;
+}
+.zonghe-wenzhang .wenzhang-nenrong{
+	height: 5.194444444444444rem;
+	background-color: #fff;
+	box-shadow: 0 0 10px 1px #e7ebe7;
+}
+.wenzhang-nenrong .wenzhang-list{
+	height: 5.194444444444444rem;
+	padding-left: 0.2222222222222222rem;
+	padding-right: 0.2222222222222222rem;
+}
+.wenzhang-list .wenzhang-item{
+	float: left;
+	width: 9.111111111111111rem;
+	height: 2.111111111111111rem;
+	border-bottom: 3px solid #e7ebe7;
+}
+.wenzhang-item .tv{
+	float: left;
+	width: 2.222222222222222rem;
+	height: 1.666666666666667rem;
+	margin-top: 0.2222222222222222rem;
+	margin-right: 0.2314814814814815rem;
+}
+.tv img{
+	width: 100%;
+}
+.wenzhang-item .item-right{
+	float: right;
+	width: 6.592592592592593rem;
+	height: 2.111111111111111rem;
+}
+.item-right .right-danmai{
+	float: left;
+	font-size: 0.3888888888888889rem;
+	line-height: 0.9444444444444444rem;
+	color: #636163;
+	margin-bottom: 0.0462962962962963rem;
+}
+.item-right .right-danmai2{
+	float: left;
+	font-size: 0.3148148148148148rem;
+	line-height: 0.4351851851851852rem;
+	color: #a5aaa5;
+}
+.wenzhang-list .wenzhang-item2{
+	float: left;
+	width: 9.111111111111111rem;
+	height: 1rem;
+	border-bottom: 3px solid #e7ebe7;
+}
+.wenzhang-item2 .wz-item2{
+	float: left;
+	width: 7.12962962962963rem;
+	height: 0.5277777777777778rem;
+	margin-top: 0.2407407407407407rem;
+	margin-right: 0.3703703703703704rem;
+}
+.wz-item2 a{
+	float: left;
+	font-size: 0.3425925925925926rem;
+	line-height: 0.5277777777777778rem;
+	color: #636163;
+}
+.wenzhang-item2 .wz-item2-right{
+	float: right;
+	width: 1.601851851851852rem;
+	height: 0.5277777777777778rem;
+	margin-top: 0.2407407407407407rem;
+}
+.wz-item2-right .right-dx{
+	float: left;
+	width: 0.6388888888888889rem;
+	height: 0.3148148148148148rem;
+	background: url(../img/duanxin.png) no-repeat;
+	margin-top: 0.1203703703703704rem;
+	background-size: 0.3888888888888889rem 0.3148148148148148rem;
+}
+.wz-item2-right span{
+	float: left;
+	font-size: 0.3425925925925926rem;
+	line-height: 0.5277777777777778rem;
+	color: #a5aaa5;
+}
+.wenzhang-list .wenzhang-item3{
+	float: left;
+	width: 9.111111111111111rem;
+	height: 1rem;
+}
+.wenzhang-item3 .wz-item2{
+	float: left;
+	width: 7.12962962962963rem;
+	height: 0.5277777777777778rem;
+	margin-top: 0.2407407407407407rem;
+	margin-right: 0.3703703703703704rem;
+}
+.wz-item2 a{
+	float: left;
+	font-size: 0.3425925925925926rem;
+	line-height: 0.5277777777777778rem;
+	color: #636163;
+}
+.wenzhang-item3 .wz-item2-right{
+	float: right;
+	width: 1.601851851851852rem;
+	height: 0.5277777777777778rem;
+	margin-top: 0.2407407407407407rem;
+}
+.content-zonghe .zonghe-donghua{
+	float: left;
+	width: 100%;
+	height: 8.194444444444444rem;
+}
+.zonghe-donghua .donghua-head{
+	height: 1.055555555555556rem;
+}
+.donghua-head .donghua-top{
+	float: left;
+	width: 1.296296296296296rem;
+	height: 0.6574074074074074rem;
+	margin-top: 0.2037037037037037rem;
+	font-size: 0.3981481481481481rem;
+	line-height: 0.6574074074074074rem;
+	color: #ff8618;
+}
+.donghua-head a{
+	float: right;
+	width: 0.6018518518518519rem;
+	height: 0.6574074074074074rem;
+	margin-top: 0.2037037037037037rem;
+	background: url(../img/jiantou.png) no-repeat 0.3703703703703704rem 0.1759259259259259rem;
+	background-size: 0.212962962962963rem 0.3703703703703704rem;
+}
+.zonghe-donghua .donghua-list{
+	float: left;
+	width: 100%;
+	height: 7.273584905660377rem;
+}
+.donghua-list .donghua-item{
+	float: left;
+	width: 4.666666666666667rem;
+	height: 3.453703703703704rem;
+	margin-right: 0.2222222222222222rem;
+	margin-bottom: 0.2222222222222222rem;
+	box-shadow: 0 0 10px 1px #e7ebe7;
+}
+.donghua-item:nth-of-type(2n){
+	margin-right: 0;
+	margin-bottom: 0;
+}
+.donghua-item:nth-of-type(3){
+	margin-bottom: 0;
+}
+.donghua-item .donghua-pic{
+	float: left;
+	width: 4.666666666666667rem;
+	height: 2.611111111111111rem;
+	margin-bottom: 0.1388888888888889rem;
+}
+.donghua-pic img{
+	width: 100%;
+}
+.donghua-item .donghua-wenzi{
+	float: left;
+	font-size: 0.3425925925925926rem;
+	line-height: 0.5092592592592593rem;
+	height: 0.5092592592592593rem;
+	color: #5a5d5a;
+}
+.content-zonghe .tiyu-head{
+	float: left;
+	width: 100%;
+	height: 1.333333333333333rem;
+}
+.tiyu-head .tiyu-top{
+	float: left;
+	width: 1.296296296296296rem;
+	height: 0.6574074074074074rem;
+	margin-top: 0.2037037037037037rem;
+	font-size: 0.3981481481481481rem;
+	line-height: 0.6574074074074074rem;
+	color: #ff8618;
+}
+.tiyu-head a{
+	float: right;
+	width: 0.6018518518518519rem;
+	height: 0.6574074074074074rem;
+	margin-top: 0.2037037037037037rem;
+	background: url(../img/jiantou.png) no-repeat 0.3703703703703704rem 0.1759259259259259rem;
+	background-size: 0.212962962962963rem 0.3703703703703704rem;
+}
+.foot{
+	box-sizing: border-box;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 3.555555555555556rem;
+	border-top: 3px solid #dedbde;
+	background-color: #e7ebe7;
+}
+.foot .foot-more{
+	margin: 0 auto;
+	width: 8rem;
+	height: 1.111111111111111rem;
+	margin-top: 0.4444444444444444rem;
+	background-color: #f7495a;
+	border-radius: 0.0925925925925926rem;
+	margin-bottom: 0.4166666666666667rem;
+}
+.foot-more a{
+	display: block;
+	text-align: center;
+	font-size: 0.3703703703703704rem;
+	line-height: 1.111111111111111rem;
+	color: #fff;
+}
+.foot .foot-wenzi{
+	margin: 0 auto;
+	width: 7.314814814814815rem;
+	height: 0.4814814814814815rem;
+	margin-bottom: 0.3148148148148148rem;
+}
+.foot-wenzi a{
+	float: left;
+	padding-right: 0.6944444444444444rem;
+	font-size: 0.3703703703703704rem;
+	line-height: 0.4814814814814815rem;
+	color: #848284;
+}
+.foot-wenzi .no{
+	padding-right: 0;
+}
+.foot .foot-zuihou{
+	margin: 0 auto;
+	width: 5rem;
+	height: 0.3425925925925926rem;
+}
+.foot-zuihou a{
+	float: left;
+	font-size: 0.3425925925925926rem;
+	color: #7b797b;
+}
